@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.runaccepted.online</groupId>
+    <artifactId>online-school</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>online-school</name>
+    <description>聚合服务</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>edu-admin</module>
+        <module>edu-common</module>
+        <module>edu-course</module>
+        <module>edu-elasticsearch</module>
+        <module>edu-gateway</module>
+        <module>edu-pay</module>
+        <module>edu-photo</module>
+        <module>edu-ucenter</module>
+        <module>edu-video</module>
+        <module>edu-daily</module>
+    </modules>
+
+</project>
